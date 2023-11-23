@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <title>Task 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button  onclick="document.location='index.html'" type="button" class="button button-text">
+        <svg class="button-icon" width="24" height="24">
+          <use href="./picture/sprite.svg#icon-keyboard_backspace"></use>
+      </svg>
+      <span>НАЗАД</span>
+    </button>
+
+
+    <h1 class="title title-01">Задание 1</h1>
+    
+    <ul class="task-01__list" id="categories">
+
+      <li class="task-01__item item">
+        <svg class="task-01__item-icon" width="24" height="24">
+          <use href="./picture/sprite.svg#icon-StarSharp"></use>
+      </svg>
+
+      <h2 class="subtitle">Animals</h2>
+        <ul class="task-01__desp-list">
+          <li class="task-01__desp-item item-text ">Cat</li>
+          <li class="task-01__desp-item item-text ">Hamster</li>
+          <li class="task-01__desp-item item-text ">Horse</li>
+          <li class="task-01__desp-item item-text ">Parrot</li>
+        </ul>
+      </li>
+
+      <li class="task-01__item item">
+        <svg class="task-01__item-icon" width="24" height="24">
+          <use href="./picture/sprite.svg#icon-StarSharp"></use>
+      </svg>
+
+        <h2 class="subtitle">Products</h2>
+        <ul class="task-01__desp-list">
+          <li class="task-01__desp-item item-text ">Bread</li>
+          <li class="task-01__desp-item item-text ">Prasley</li>
+          <li class="task-01__desp-item item-text ">Cheese</li>
+        </ul>
+      </li>
+
+      <li class="task-01__item item">
+        <svg class="task-01__item-icon" width="24" height="24">
+          <use href="./picture/sprite.svg#icon-StarSharp"></use>
+      </svg>
+
+        <h2 class="subtitle">Technologies</h2>
+        <ul class="task-01__desp-list">
+          <li class="task-01__desp-item item-text ">HTML</li>
+          <li class="task-01__desp-item item-text ">CSS</li>
+          <li class="task-01__desp-item item-text ">JavaScript</li>
+          <li class="task-01__desp-item item-text ">React</li>
+          <li class="task-01__desp-item item-text ">Node.js</li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+    <script src="js/task-01.js" type="module"></script>
+  </body>
+</html>

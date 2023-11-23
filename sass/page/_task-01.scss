@@ -1,0 +1,35 @@
+.title-01{
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.task-01__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.task-01__item{
+position: relative;
+display: flex;
+
+width: 260px;
+height: 152px;
+
+align-items: flex-start;
+
+}
+
+
+
+.task-01__desp-list{
+    position: absolute;
+    top: 38px;
+    left: 75px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+

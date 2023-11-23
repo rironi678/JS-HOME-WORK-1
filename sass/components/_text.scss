@@ -1,0 +1,13 @@
+.text{
+    @include font($fs: 14px, $fw: 400);
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.17px;
+}
+
+
+.text-table-js{
+    @include font($fs: 12px, $fw: 400);
+    line-height: 143%; /* 17.16px */
+    letter-spacing: 0.17px;
+}
+

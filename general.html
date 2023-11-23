@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Homework 6</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css" />
+
+</head>
+<body>
+
+    <!-- CONTAINER --> 
+    <div class="container">
+
+    <!-- BACK BUTTON --> 
+        <button  onclick="document.location='index.html'" type="button" class="button button--right-position-general button-text">
+        <svg class="button-icon" width="24" height="24">
+            <use href="./picture/sprite.svg#icon-keyboard_backspace"></use>
+        </svg>
+        <span>НАЗАД</span>
+    </button>
+    </div>
+
+    <!-- CONTAINER CENTR --> 
+    <div class="container centr">
+
+            <!-- GENERAL TITLE --> 
+            
+    <h1 class="general-title title ">Домашние задания</h1>
+
+
+<!-- ЗАДАНИЕ 1 --> 
+<div class="tusk-block block-burder">
+        <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 1</span></h2>
+        
+
+        <div class="checkbox-position">
+            <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+            <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+                <input class="hidden-checkbox" type="checkbox">
+    
+                    <svg class="checkmark" width="16" height="16">
+                        <use href="./picture/svg/hidden-2.svg"></use>
+                    </svg>
+                    <!-- SVG - сама иконка чекбокса 1 -->  
+            </label>
+        </div>
+    </div>
+
+
+
+        <div class="tusk-block__box-wrapped">
+            <div class="box-wrapped__inered">
+
+                <h3 class="tusk-block__subtitle">Напиши скрипт который:</h3>
+
+        
+        <ol class="inered__ordered-list">
+            <li class="ordered-list__item">
+                Посчитает и выведет в консоль количество категорий
+                в ul#categories, то есть элементов li.item.
+            </li>
+            <li class="ordered-list__item">
+                Для каждого элемента li.item в списке ul#categories, 
+                найдет и выведет в консоль текст заголовка элемента 
+                (тега &lt;h2&gt;) и количество элементов в категории (всех вложенных в него &lt;li&gt;).
+            </li>
+        </ol>
+
+            <h3 class="tusk-block__subtitle">Для выполнения этой задачи нужно использовать метод forEach() и свойства навигации по DOM.</h3>
+            <h3 class="tusk-block__subtitle">В результате, выведи в alert  такие сообщения:</h3>
+            </div>
+
+            <div data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--1 ">
+            <ul class="inered__unordered-list gap-10">
+                <li class="unordered-list__item">
+                    Number of categories: <span class="color--turquoise">3</span>
+                </li>
+                <li class="unordered-list__item">
+                    Category: Animals
+                </li>
+                <li class="unordered-list__item">
+                    Elements: <span class="color--turquoise">4</span>
+                </li>
+                <li class="unordered-list__item">
+                    Category: Products
+                </li>
+                <li class="unordered-list__item">
+                    Elements: <span class="color--turquoise">3</span>
+                </li>
+                <li class="unordered-list__item">
+                    Category: Technologies
+                </li>
+                <li class="unordered-list__item">
+                    Elements: <span class="color--turquoise">3</span>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+</div>
+
+
+
+<!-- ЗАДАНИЕ 2 --> 
+<div class="tusk-block block-burder">
+            <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 2</span></h2>
+
+        <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+    
+            <div class="tusk-block__box-wrapped">
+                <h3 class="tusk-block__subtitle">В JavaScript есть массив строк.</h3>
+                
+                <div data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-easing="ease-in-sine">
+
+                <div class="box-wrapped__inered table-js table-js--2 ">
+                    <ul class="inered__unordered-list ">
+                        <li class="unordered-list__item">
+                            <span class="color--blue">const</span> ingredients = [ 
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Potatoes",</span>
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Mushrooms",</span>
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Garlic",</span>
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Tomatos",</span>
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Herbs",</span>
+                        </li>
+                        <li class="unordered-list__item">
+                            <span class="color--potatoes">"Condiments",</span> <br> ];
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+    
+                    
+                <div class="box-wrapped__inered">
+
+                    <p>Напиши скрипт, который для каждого элемента массива <span class="color--potatoes">ingredients</span>:</p>
+
+            <ol class="inered__ordered-list">
+                <li class="ordered-list__item">
+                    Создаст отдельный элемент <span class="color--blue">&lt;li&gt;</span>. 
+                    Обзательно используй метод <span class="color--potatoes">document.createElement().</span>
+                </li>
+                <li class="ordered-list__item">
+                    Добавит название ингредиента как его текстовое содержимое.
+                </li>
+                <li class="ordered-list__item">
+                    Добавит элементу класс <span class="color--blue">item</span>.
+                </li>
+                <li class="ordered-list__item">
+                    После чего вставит все <span class="color--blue">&lt;li&gt;.
+                    </span> за одну операцию в список <span class="color--potatoes">ul#ingredients.</span>
+                </li>
+            </ol>
+            </div>
+        </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 3 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 3</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+
+    <div class="tusk-block__box-wrapped">
+        <h3 class="tusk-block__subtitle">
+            Напиши скрипт для создания галереи изображений по массиву данных. В HTML есть список <span class="color--blue">ul.gallery.</span>
+        </h3>
+
+        <div data-aos="fade-right"
+        data-aos-offset="50"
+        data-aos-easing="ease-in-sine">
+
+        <div class="box-wrapped__inered table-js table-js--3 ">
+
+            <p class="unordered-list__item"> &lt;ul <span class="color--blue">class</span> ="<span class="color--potatoes">gallery</span>">ul&gt;</p>
+
+            </div>
+        </div>
+            
+
+
+            <div class="box-wrapped__inered">
+            <p class="tusk-block__subtitle gap-0">
+                Используй массив объектов images для создания элементов &lt;img&gt; вложенных в &lt;li&gt;. Для 
+                создания разметки используй шаблонные строки и метод insertAdjacentHTML().
+            </p>
+
+            <ul class="inered__unordered-list list-style ">
+                <li class="unordered-list__item">Все элементы галереи должны добавляться в DOM за одну операцию вставки.</li>
+                <li class="unordered-list__item">Добавь минимальное оформление галереи флексбоксами или гридами через CSS классы.</li>
+            </ul>
+        </div>
+
+        <div data-aos="zoom-in-left"
+        data-aos-duration="450">
+        
+            <div class="box-wrapped__inered table-js table-js--3-1 ">
+                    <p><span class="color--blue">const</span> images = [ <br>  &lbrace; </p>
+                    <p>
+                        <span class="color--green">url:</span> <span class="color--potatoes">"https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260"</span>,
+                        <span class="color--green">alt:</span> <span class="color--potatoes">"White and Black Long Fur Cat"</span> <br>  &rbrace;, <br> &lbrace; <br>
+                        
+                        <span class="color--green">url:</span> <span class="color--potatoes">"https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260"</span>,
+                        <span class="color--green">alt:</span> <span class="color--potatoes">"White and Black Long Fur Cat"</span> <br>  &rbrace;, <br> &lbrace; <br>
+
+                        <span class="color--green">url:</span> <span class="color--potatoes">"https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260"</span>,
+                        <span class="color--green">alt:</span> <span class="color--potatoes">"White and Black Long Fur Cat"</span> <br>  &rbrace;, <br> ];
+                    </p>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 4 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 4</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+        <h3 class="tusk-block__subtitle">Счетчик состоит из спана и кнопок, которые, при клике, должны увеличивать и уменьшать его значение на единицу.</h3>
+
+        <div data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--4 ">
+
+                <p>&lt;<span class="color--blue">div</span> id="counter"&gt; </p>
+
+                    <p>&nbsp;&nbsp;&lt;<span class="color--blue">button</span>
+                    <span class="color--green">type=</span>"<span class="color--potatoes">button</span>"
+                    <span class="color--orange">data-action=</span>"<span class="color--potatoes">decrement</span>"&gt; &minus;1&lt;/<span class="color--blue">button</span>&gt;
+                    </p>
+
+                    <p>&nbsp;&nbsp;&lt;<span class="color--blue">span</span><span class="color--green">
+                        id=</span>"<span class="color--potatoes">value</span>"&gt;0&lt;/<span class="color--blue">span</span>&gt;
+                    </p>
+
+                    <p>&nbsp;&nbsp;&lt;<span class="color--blue">button</span>
+                        <span class="color--green">type=</span>"<span class="color--potatoes">button</span>"
+                        <span class="color--blue">data-action=</span>"<span class="color--potatoes">decrement</span>"&gt; &plus;1&lt;/<span class="color--blue">button</span>&gt;
+                        </p>
+
+                <p>&lt;/<span class="color--blue">div</span>&gt; </p>
+                </div>
+        </div>
+
+                <ul class="inered__unordered-list list-style ">
+                    <li class="unordered-list__item">Создай переменную <span class="color--potatoes">counterValue</span> в которой будет храниться текущее значение счетчика и инициализируй её значением 0.</li>
+                    <li class="unordered-list__item">Добавь слушатели кликов на кнопки, внутри которых увеличивай или уменьшай значение счтетчика.</li>
+                    <li class="unordered-list__item">Обновляй интерфейс новым значением переменной <span class="color--potatoes">counterValue</span>.</li>
+                </ul>
+</div>
+</div>
+
+
+<!-- ЗАДАНИЕ 5 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 5</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+
+        <h3 class="tusk-block__subtitle">Напиши скрипт который, при наборе текста в инпуте 
+
+            <span class="color--potatoes">input#name-input</span> (событие input), подставляет его текущее значение
+            в <span class="color--potatoes">span#name-output</span>. Если инпут пустой, в спане должна отображаться строка "<span class="color--green">Anonymous</span>".</h3>
+
+
+            <div data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--5 ">
+
+                    <p>
+                        &lt;<span class="color--blue">input</span> <span class="color--green">type=</span>"<span class="color--potatoes">text</span>" 
+                        <span class="color--green">id=</span>"<span class="color--potatoes">name-input</span>"
+                        <span class="color--green">placeholder=</span>"<span class="color--potatoes">Please enter your name</span>"/>
+                    </p>
+
+                    <p>
+                        &lt;<span class="color--blue">h1</span>&gt; Hello &lt;<span class="color--blue">span</span> 
+                        <span class="color--green">id=</span>"<span class="color--potatoes">name-output</span>">Anonymous&lt;/<span class="color--blue">span</span>
+                        >!&lt;/<span class="color--blue">h1</span>&gt;
+                    </p>
+            </div>
+            </div>
+    </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 6 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 6</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+
+        <h3 class="tusk-block__subtitle">
+            Напиши скрипт, который при потере фокуса на инпуте (событие blur),
+            проверяет его содержимое на правильное количество введённых символов.
+        </h3>
+
+        <div data-aos="fade-right"
+        data-aos-offset="50"
+        data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--6 ">
+
+                    <p>
+                        &lt;<span class="color--blue">input</span> <span class="color--green">type=</span>"<span class="color--potatoes">text</span>" 
+                        <span class="color--green">id=</span>"<span class="color--potatoes">name-input</span>"
+                        <span class="color--green">placeholder=</span>"<span class="color--potatoes">Please enter your name</span>"/>
+                    </p>
+
+                    <p>
+                        &lt;<span class="color--blue">h1</span>&gt; Hello &lt;<span class="color--blue">span</span> 
+                        <span class="color--green">id=</span>"<span class="color--potatoes">name-output</span>">Anonymous&lt;/<span class="color--blue">span</span>
+                        >!&lt;/<span class="color--blue">h1</span>&gt;
+                    </p>
+            </div>
+        </div>
+
+            <ul class="inered__unordered-list list-style ">
+                <li class="unordered-list__item">Сколько символов должно быть в инпуте, указывается в его атрибуте data-length./li>
+                <li class="unordered-list__item">Если введено подходящее количество символов, то border инпута становится зелёным, <span class="span-space--left-li">если неправильное -</span> </li>
+            </ul>
+
+            <p class="inered__text text">Для добавления стилей, используй CSS-классы valid и invalid, которые мы уже добавили в исходные файлы задания.</p>
+
+            <div data-aos="zoom-in-left"
+            data-aos-duration="450">
+
+            <div class="box-wrapped__inered table-js table-js--6-1 ">
+
+                <p><span class="color--blue">#validation-input</span> &lbrace; <p><span class="color--green">border: 3</span>px solid #bdbdbd; <br> &rbrace;</p>
+                <p><span class="color--blue">#validation-input.valid</span> &lbrace; <p><span class="color--green">border-color:</span>#4caf50; <br> &rbrace;</p>
+                <p><span class="color--blue">#validation-input.invalid</span> &lbrace; <p><span class="color--green">border-color:</span>#f44336; <br> &rbrace;</p>
+            </div>
+            </div>
+    </div>
+</div>
+
+<!-- ЗАДАНИЕ 7 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 7</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+        <h3 class="tusk-block__subtitle">
+            Напиши скрипт, который реагирует на изменение 
+            значения <span class="color--potatoes">input#font-size-control</span> (событие <span class="color--potatoes">input</span>) и изменяет 
+            инлайн-стиль <span class="color--potatoes">span#text</span> обновляя свойство <span class="color--potatoes">font-size</span>. В результате при 
+            перетаскивании ползунка будет меняться размер текста.
+        </h3>
+
+        <div data-aos="fade-right"
+        data-aos-offset="50"
+        data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--7 ">
+                    <p>
+                        &lt;<span class="color--blue">input</span> <span class="color--orange">id=</span>"<span class="color--potatoes">font-size-control</span>" 
+                        <span class="color--green">type=</span>"<span class="color--potatoes">range</span>"
+                        <span class="color--orange">min=</span>"<span class="color--potatoes">16</span>"
+                        <span class="color--orange">max=</span>"<span class="color--potatoes">96</span>" />&lt;br />&lt;<span class="color--blue">span</span>
+                        <span class="color--orange">id=</span>"<span class="color--potatoes">text</span>">Abracadabra!&lt;/<span class="color--blue">span</span>
+                    </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 8 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 8</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+        <h3 class="tusk-block__subtitle">>Напиши скрипт управления формой логина.</h3>
+
+<div data-aos="fade-right"
+    data-aos-offset="50"
+    data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--8 ">
+    
+                        <p>
+                            &lt;<span class="color--blue">form</span>
+                            <span class="color--green">class=</span>"<span class="color--potatoes">login-form</span>">
+                        </p>
+
+                        <p>
+                            <span class="span-space--left-table"></span>&lt;<span class="color--blue">label</span>
+                            &gt;<span class="span-space">Email</span>&lt;<span class="color--blue">input</span>
+                            <span class="color--green">type=</span>"<span class="color--potatoes">email</span>"
+                            <span class="color--green">name=</span>"<span class="color--potatoes">email</span>" /> &lt;/<span class="color--blue">label</span>>
+                        </p> 
+
+                        <p>
+                            <span class="span-space--left-table"></span>&lt;<span class="color--blue">label</span>
+                            &gt;<span class="span-space">Password</span>&lt;<span class="color--blue">input</span>
+                            <span class="color--green">type=</span>"<span class="color--potatoes">password</span>"
+                            <span class="color--green">name=</span>"<span class="color--potatoes">password</span>" /> &lt;/<span class="color--blue">label</span>>
+                        </p> 
+
+                        <p>
+                            <span class="span-space--left-table"></span>&lt;<span class="color--blue">button</span>&gt;
+                            <span class="color--orange">type=</span>
+                            "<span class="color--potatoes">submit</span>"&gt;Login&lt;/<span class="color--blue">button</span>&gt;
+                        </p> 
+
+                        <p>
+                            &lt;/<span class="color--blue">form</span>>
+                        </p>
+            </div>
+</div>
+
+            <ol class="inered__ordered-list">
+                <li class="ordered-list__item">
+                    Обработка отправки формы <span class="color--potatoes">form.login-form</span> должна быть по событию <span class="color--orange">submit</span>.
+                </li>
+                <li class="ordered-list__item">
+                    При отправке формы страница не должна перезагружаться.
+                </li>
+                <li class="ordered-list__item">
+                    Если в форме есть незаполненные поля, выводи <span class="color--potatoes">alert</span> с предупреждением о том, что все поля должны быть заполнены.
+                </li>
+                <li class="ordered-list__item">
+                    Если пользователь заполнил все поля и отправил форму, собери значения полей в обьект,
+                    где имя поля будет именем свойства, а значение поля - значением свойства. Для доступа 
+                    к элементам формы используй свойство <span class="color--potatoes">elements</span>.
+                </li>
+                <li class="ordered-list__item">
+                    Выведи обьект с введенными данными в консоль и очисти значения полей формы методом <span class="color--potatoes">reset</span>.
+                </li>
+            </ol>
+    
+    </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 9 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 9</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+        <h3 class="tusk-block__subtitle">Напиши скрипт, который изменяет цвета фона элемента &lt;body&gt; через инлайн стиль при клике на button.change-color и выводит значение цвета в span.color.</h3>
+
+
+        <div data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--9 ">
+
+                        <p>
+                            &lt;<span class="color--blue">div</span>
+                            <span class="color--green">class=</span>"<span class="color--potatoes">widget</span>">
+                        </p>
+
+                        <p>
+                            <span class="span-space--left-table"></span>&lt;<span class="color--blue">p</span>&gt;<span>Background color:</span>
+                            &lt;<span>span</span>
+                            <span class="color--green">class=</span>"<span class="color--potatoes">color</span>"&gt;-&lt;/<span class="color--blue">span</span>&gt;&lt;/<span class="color--blue">p</span>&gt;
+                        </p> 
+
+                        <p>
+                            <span class="span-space--left-table"></span>&lt;<span class="color--blue">button</span>   
+                            <span class="color--green">type=</span>"<span class="color--potatoes">button</span>"
+                            <span class="color--green">class=</span>"<span class="color--potatoes">change-color</span>"&gt;change-color&lt;/<span class="color--blue">button</span>&gt;
+                        </p> 
+
+                        <p>
+                            &lt;/<span class="color--blue">div</span>>
+                        </p>
+            </div>
+        </div>
+
+
+            <h3 class="tusk-block__subtitle">Для генерации случайного цвета используй функцию getRandomHexColor.</h3>
+
+
+
+            <div data-aos="zoom-in-left"
+            data-aos-duration="450">
+
+            <div class="box-wrapped__inered table-js table-js--9-1 ">
+
+                <p>
+                    <span class="color--blue">function</span>
+                    <span class="color--potatoes">getRandomHexColor</span>() &lbrace;
+                </p>
+
+                <p>
+                    <span class="color--blue">return</span>
+                    `#$&lbrace;Math.<span class="color--potatoes">floor</span>&lpar;Math.<span class="color--potatoes">random</span>()
+                    * <span class="color--blue">16777215</span>&rpar;
+                </p>
+
+                <p>
+                    <span class="color--potatoes">.toString</span>(<span class="color--blue">16</span>)
+                </p> 
+
+                <p>
+                    <span class="color--potatoes">.padStart</span>(<span class="color--blue">6, 0</span>)&rbrace;`;
+                    <br> &rbrace;
+                </p> 
+    </div>
+            </div>
+    </div>
+</div>
+
+
+<!-- ЗАДАНИЕ 10 --> 
+<div class="tusk-block block-burder">
+    <h2 class="tusk-block__title"><span class="span-cursor--pointer">Задание 10</span></h2>
+
+    <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+    <div class="tusk-block__box-wrapped">
+
+        <h3 class="tusk-block__subtitle">
+            Напиши скрипт создания и очистки коллекции элементов. 
+            Пользователь вводит количество элементов в input и нажимает кнопку Создать, 
+            после чего рендерится коллекция. При нажатии на кнопку Очистить, коллекция элементов очищается.
+        </h3>
+
+
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+
+            <div class="box-wrapped__inered table-js table-js--10 ">
+
+                <p>
+                    &lt;<span class="color--blue">div</span>
+                    <span class="color--orange">id=</span>"<span class="color--potatoes">controls</span>">
+                </p>
+
+                <p>
+                    <span class="span-space--left-table"></span>&lt;<span class="color--blue">input</span>
+                    <span class="color--green">type=</span>"<span class="color--potatoes">number</span>"
+                    <span class="color--orange">min==</span>"<span class="color--potatoes">1</span>" 
+                    <span class="color--orange">max==</span>"<span class="color--potatoes">100</span>" 
+                    <span class="color--orange">step</span>"<span class="color--potatoes">1</span>" />
+                </p> 
+
+                <p>
+                    <span class="span-space--left-table"></span>&lt;<span class="color--blue">button</span>
+                    <span class="color--green">type=</span>"<span class="color--potatoes">button</span>"
+                    <span class="color--orange">data-create</span>"&gt;Create&lt;/<span class="color--blue">button</span>&gt;
+                </p> 
+
+                <p>
+                    <span class="span-space--left-table"></span>&lt;<span class="color--blue">button</span>
+                    <span class="color--green">type=</span>"<span class="color--potatoes">button</span>"
+                    <span class="color--orange">data-destroy</span>"&gt;Destroy&lt;/<span class="color--blue">button</span>&gt;
+                </p> 
+
+                <p>
+                    &lt;/<span class="color--blue">div</span>>
+                </p>
+
+                <p>
+                    &lt;<span class="color--blue">div</span>
+                    <span class="color--orange">id=</span>"<span class="color--potatoes">boxes</span>"&gt;&lt;/<span class="color--blue">div</span>&gt;
+                </p>
+
+            </div>
+        </div>
+
+            <h3 class="tusk-block__subtitle">
+                Создай функцию <span class="color--blue">createBoxes</span>(<span class="color--potatoes">amount</span>), 
+                которая принимает один параметр - <span class="color--potatoes">число</span>. 
+                Функция создает столько &lt;<span class="color--blue">div</span>&gt; сколько указано в <span class="color--potatoes">amount</span>
+                и добавляет их в <span class="color--blue">div#boxes.</span>
+                </h3>
+
+                <ol class="inered__ordered-list">
+                    <li class="ordered-list__item">
+                        Размеры самого первого &lt;<span class="color--blue">div</span>&gt; - 30px на 30px.
+                    </li>
+                    <li class="ordered-list__item">
+                        Каждый элемент после первого, должен быть шире и выше предыдущего на 10px.
+                    </li>
+                    <li class="ordered-list__item">
+                        Все элементы должены иметь случайный цвет фона в формате HEX.
+                        Используй готовую функцию <span class="color--potatoes">getRandomHexColor</span>
+                        для получения цвета.
+                    </li>
+                </ol>
+
+                <div data-aos="zoom-in-left"
+                data-aos-duration="450">
+                <div class="box-wrapped__inered table-js table-js--9-1 ">
+
+                    <p>
+                        <span class="color--blue">function</span>
+                        <span class="color--potatoes">getRandomHexColor</span>() &lbrace;
+                    </p>
+    
+                    <p>
+                        <span class="color--blue">return</span>
+                        `#$&lbrace;Math.<span class="color--potatoes">floor</span>&lpar;Math.<span class="color--potatoes">random</span>()
+                        * <span class="color--blue">16777215</span>&rpar;
+                    </p>
+    
+                    <p>
+                        <span class="color--potatoes">.toString</span>(<span class="color--blue">16</span>)
+                    </p> 
+    
+                    <p>
+                        <span class="color--potatoes">.padStart</span>(<span class="color--blue">6, 0</span>)&rbrace;`;
+                        <br> &rbrace;
+                    </p> 
+        </div>
+                </div>
+        
+
+        <h3 class="tusk-block__subtitle">
+            Создай функцию <span class="color--blue">destroyBoxes</span>(), которая очищает содержимое <span class="color--blue">div#boxes</span>, тем самым удаляя все созданные элементы.
+            </h3>
+    </div>
+</div>
+
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

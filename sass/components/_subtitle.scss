@@ -1,0 +1,17 @@
+.subtitle{
+    @include font($fs: 16px, $fw: 400);
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.15px;
+
+    color: var(--text-primary);
+}
+
+
+
+.tusk-block__subtitle{
+    @include font($fs: 14px, $fw: 400);
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.17px;
+
+    color: var(--text-primary);
+}

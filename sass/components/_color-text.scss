@@ -1,0 +1,29 @@
+
+
+.color{
+
+    &--turquoise{
+        color:  #90CAF9;
+    }
+
+    &--potatoes{
+        color:  #D32F2F;
+    }
+
+    &--blue{
+        color:  #2196F3;
+    }
+
+    &--info{
+        color: var(--info);
+    }
+
+    &--green{
+        color: #2E7D32;
+    }
+
+    &--orange{
+        color: #EF6C00;
+    }
+}
+

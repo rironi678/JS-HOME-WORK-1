@@ -1,0 +1,27 @@
+.general-title{
+    margin-top: 90px;
+    margin-bottom: 36px;
+}
+
+.tusk-block{
+    display: flex;
+}
+
+.tusk-block__box-wrapped{
+    display: flex;
+    flex-direction: column;
+
+    width: 680px;
+    gap: 15px;
+    padding: 16px;
+}
+
+.box-wrapped__inered{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+

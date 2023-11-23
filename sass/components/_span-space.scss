@@ -1,0 +1,25 @@
+
+.span-space{
+    padding: 0 10px;
+
+    &--left-li{
+        padding-left: 19px;
+    }
+
+    &--left-table{
+        padding-left: 12px;
+    }
+    
+}
+
+.span-cursor--pointer{
+    cursor: pointer;
+    text-decoration-line: underline;
+
+    transition: color 250ms;
+
+    &:hover{
+        color: var(--info);
+    }
+
+}

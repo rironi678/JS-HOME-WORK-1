@@ -1,0 +1,60 @@
+.title-04{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.button-task-04{
+    display: inline-flex;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+
+    @include font($fs: 15px, $fw: 500);
+    line-height: 26px; /* 173.333% */
+    letter-spacing: 0.46px;
+}
+
+.button-task-04__decr{
+    display: flex;
+    padding: 8px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--primary-main);
+    color: var(--primary-contrast);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.20), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+    @include font($fs: 15px, $fw: 500);
+    line-height: 26px; /* 173.333% */
+    letter-spacing: 0.46px;
+}
+
+.span-task-04__count{
+
+display: flex;
+padding: 1px 22px;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.button-task-04__incr{
+    display: flex;
+    padding: 8px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--primary-dark);
+    color: var(--primary-contrast);
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.20), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+    @include font($fs: 15px, $fw: 500);
+    line-height: 26px; /* 173.333% */
+    letter-spacing: 0.46px;
+}

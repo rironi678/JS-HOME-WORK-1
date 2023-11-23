@@ -1,0 +1,19 @@
+.title-02{
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.ingredients-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 260px;
+}
+
+.ingredients-list__item{
+    display: inline-flex;
+    align-items: center;
+
+    width: 260px;
+    height: 47px;
+}

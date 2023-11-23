@@ -1,0 +1,38 @@
+
+:root{
+
+    --main-font: 'Roboto';
+    --text-color: #000000DE;
+    --text-secondary: rgba(0, 0, 0, 0.60);
+    --text-primary: rgba(0, 0, 0, 0.87)
+    --primary-contrast: #fff;
+
+    --primary-main: #2196F3;
+    --primary-dark: #1E88E5;
+    --secondary-main: #9C27B0;
+    --error-main: #D32F2F;
+    --warning-main: #EF6C00;
+    --info: #0288D1;
+
+    //Border
+    --border-radius: 4px;
+    --border-divider: rgba(0, 0, 0, 0.12);
+
+
+    //Background-color
+    --primary-selected: rgba(33, 150, 243, 0.08);
+    --background-color: #ffffff;
+    --background-color-table-js: #F6F8FA;
+
+
+    //Input-style
+    --components-input-outlined-enabled-border: rgba(0, 0, 0, 0.23);
+    --default-input: #0000003B;
+    --hover-input:#2196F3;
+    --focus-input:#2196F3;
+    --enabled-input:#0000003B;
+    --error-input:#D32F2F;
+    --true-input:#2E7D32;
+
+}
+

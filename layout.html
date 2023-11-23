@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Homework 6</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css" />
+</head>
+<body>
+
+    <!-- CONTAINER --> 
+    <div class="container">
+
+    <!-- BACK BUTTON --> 
+        <button  onclick="document.location='index.html'" type="button" class="button button--right-position-layout button-text">
+        <svg class="button-icon" width="24" height="24">
+            <use href="./picture/sprite.svg#icon-keyboard_backspace"></use>
+        </svg>
+        <span>НАЗАД</span>
+    </button>
+    </div>
+
+    <!-- CONTAINER CENTR --> 
+    <div class="container centr">
+
+            <!-- GENERAL TITLE --> 
+    <h1 class="general-title title ">Задание по верстке</h1>
+
+    
+
+    <div data-aos="flip-up"
+    data-aos-duration="800">
+    <div class="tusk-block">
+        <h2 class="tusk-block__title"><span class="span-cursor--pointer">Верстка</span></h2>
+    
+        <div class="checkbox-position">
+        <div class="checkbox"> <!-- Элемент, который будет стилизован под чекбокс 1 -->  
+        <label class="custom-checkbox">  <!-- label нужен для активации чекбокса по клику 1 --> 
+            <input class="hidden-checkbox" type="checkbox">
+
+                <svg class="checkmark" width="16" height="16">
+                    <use href="./picture/svg/hidden-2.svg"></use>
+                </svg>
+                <!-- SVG - сама иконка чекбокса 1 -->  
+        </label>
+    </div>
+</div>
+
+
+        <div class="tusk-block__box-wrapped">
+    
+            <h3 class="tusk-block__subtitle">Сверстать эту страницу и все задания.</h3>
+
+            <p>Стили для компонентов можно найти на сайте https://codepen.io/</p>
+            <p>Анимации по желанию https://uiverse.io/all</p>
+            <p>Компоненты, контейнеры, кнопки инпуты должны быть переиспользованны на всех страницах</p>
+            <p>В корне проекта создана папка sass, в которой лежат все файлы стилей препроцессора.</p>
+            <p>
+                Палитра цветов макета и наборы шрифтов вынесены в переменные в файле variables.scss, 
+                который лежит в папке sass/utils. Можно использовать CSS или SASS переменные (по желанию).
+            </p>
+            <p>Для каждого компонента создан отдельный файл-фрагмент стилей в папке sass/components. 
+                Например _page-header.scss, _logo.scss и т. д.</p>
+            <p>Правильное именование классов блоков по методологии BEM.</p>
+            <p>Использована вложенность селекторов.</p>
+    
+        </div>
+    </div>
+    </div>
+    
+
+
+
+
+
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

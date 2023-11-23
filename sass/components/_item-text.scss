@@ -1,0 +1,8 @@
+.item-text{
+    @include font($fs: 14px, $fw: 400);
+    line-height: 143%; /* 20.02px */
+    letter-spacing: 0.17px;
+    list-style: disc;
+
+    color: var(--text-secondary);
+}

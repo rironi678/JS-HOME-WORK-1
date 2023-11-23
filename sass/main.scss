@@ -1,0 +1,29 @@
+//UTILS
+@import './utils/variables';
+@import './utils/mixin';
+
+//BASE
+@import './base/common';
+@import './base/container';
+
+//PAGE
+@import './page/general';
+@import './page/hero-content';
+@import './page/task-01';
+@import './page/task-02';
+@import './page/task-03';
+@import './page/task-04';
+@import './page/task-05';
+
+//COMPONENTS
+@import './components/button';
+@import './components/title';
+@import './components/item-text';
+@import './components/subtitle';
+@import './components/item';
+@import './components/gap';
+@import './components/block-burder';;
+@import './components/checkbox';
+@import './components/color-text';
+@import './components/table-js';
+@import './components/span-space';
