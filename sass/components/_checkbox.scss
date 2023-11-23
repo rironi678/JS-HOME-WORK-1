@@ -18,7 +18,7 @@
 
 .checkbox { // Тут стилизуем сам чекбокс
     position: relative;
-    background-image: url(/picture/Swatch.png);
+    background-image: url(../picture/Swatch.png);
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -67,7 +67,7 @@
 
 
     content: '';
-    background-image: url(/picture/svg/hidden-2.svg);
+    background-image: url(../picture/svg/hidden-2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;

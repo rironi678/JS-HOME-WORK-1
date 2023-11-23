@@ -155,7 +155,7 @@ body {
 .hero-content {
   position: relative;
   height: 100vh;
-  background-image: url(/picture/oboi.jpg);
+  background-image: url(../picture/oboi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -561,7 +561,7 @@ body {
 
 .checkbox {
   position: relative;
-  background-image: url(/picture/Swatch.png);
+  background-image: url(../picture/Swatch.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 16px;
@@ -596,7 +596,7 @@ body {
   top: -3px;
   left: -4px;
   content: "";
-  background-image: url(/picture/svg/hidden-2.svg);
+  background-image: url(../picture/svg/hidden-2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
